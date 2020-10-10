@@ -147,12 +147,12 @@ sup {
 
 a {
   color: #343a40;
-  text-decoration: "underline";
+  text-decoration: underline;
   background-color: transparent;
 }
 a:hover {
   color: #0056b3;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]):not([class]) {
@@ -2928,14 +2928,14 @@ fieldset:disabled a.btn {
 .btn-link {
   font-weight: 400;
   color: #343a40;
-  text-decoration: "underline";
+  text-decoration: underline;
 }
 .btn-link:hover {
   color: #0056b3;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .btn-link:focus, .btn-link.focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;

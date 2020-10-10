@@ -28,7 +28,8 @@ $theme-colors: map-merge(
 );
 
 $link-color: theme-color(dark);
-$link-decoration: 'underline';
+$link-decoration: underline;
+$link-hover-decoration: none;
 
 @import "./../node_modules/bootstrap/scss/mixins";
 @import "./../node_modules/bootstrap/scss/root";
