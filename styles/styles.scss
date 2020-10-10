@@ -30,7 +30,7 @@ $theme-colors: map-merge(
 $link-color: theme-color(dark);
 $link-decoration: underline;
 $link-hover-decoration: none;
-$link-hover-color: theme-color(wlt);
+$link-hover-color: theme-color(dark);
 
 
 @import "./../node_modules/bootstrap/scss/mixins";
