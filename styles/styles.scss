@@ -42,6 +42,8 @@ $theme-colors: map-merge(
   @include button-variant(#000000, #000000);
   &:hover {
     background: theme-color("wlt");
+    color: #000;
+    border-color: theme-color("wlt");
   }
 }
 

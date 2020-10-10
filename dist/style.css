@@ -3000,6 +3000,8 @@ input[type="button"].btn-block {
 }
 .btn-wlt-black:hover {
   background: #febf03;
+  color: #000;
+  border-color: #febf03;
 }
 
 .fade {
