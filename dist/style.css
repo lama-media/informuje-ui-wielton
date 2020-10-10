@@ -146,8 +146,8 @@ sup {
 }
 
 a {
-  color: #007bff;
-  text-decoration: none;
+  color: #343a40;
+  text-decoration: "underline";
   background-color: transparent;
 }
 a:hover {
@@ -2394,6 +2394,7 @@ textarea.form-control {
   font-weight: 400;
   color: #212529;
   text-align: center;
+  text-decoration: none;
   vertical-align: middle;
   user-select: none;
   background-color: transparent;
@@ -2926,8 +2927,8 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #007bff;
-  text-decoration: none;
+  color: #343a40;
+  text-decoration: "underline";
 }
 .btn-link:hover {
   color: #0056b3;
@@ -3226,6 +3227,7 @@ input[type="button"].btn-block {
   font-weight: 400;
   color: #212529;
   text-align: inherit;
+  text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   border: 0;
@@ -3947,6 +3949,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  text-decoration: none;
 }
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
@@ -4645,6 +4648,7 @@ input[type="button"].btn-block {
   margin-left: -1px;
   line-height: 1.25;
   color: #007bff;
+  text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -5103,6 +5107,7 @@ a.badge-light:focus, a.badge-light.focus {
   position: relative;
   display: block;
   padding: 0.75rem 1.25rem;
+  text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
